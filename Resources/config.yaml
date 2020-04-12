@@ -1,6 +1,8 @@
 platform:
+
+  server:
+
   android:
-    server:
     platformName:
     platformVersion:
     deviceName:
@@ -14,8 +16,8 @@ platform:
     disableWindowAnimation: False
     newCommandTimeout: 20000
     waitForIdleTimeout: 2000
+  
   ios:
-    server:
     platformName:
     automationName:
     bundleId:
