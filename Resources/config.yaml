@@ -1,0 +1,36 @@
+platform:
+  android:
+    server:
+    platformName:
+    platformVersion:
+    deviceName:
+    udid:
+    app:
+    automationName: UiAutomator2
+    appActivity: com.example.MainActivity
+    autoGrantPermissions: True
+    autoAcceptAlerts: True
+    noReset: True
+    disableWindowAnimation: False
+    newCommandTimeout: 20000
+    waitForIdleTimeout: 2000
+  ios:
+    server:
+    platformName:
+    automationName:
+    bundleId:
+    deviceName:
+    platformVersion:
+    app:
+    udid:
+    noReset: True
+    waitForQuiescence: False
+    wdaEventloopIdleDelay: 3
+    eventLoopIdleDelaySec: 1
+    useJSONSource: True
+    useNewWDA: True
+    fullReset: False
+    autoGrantPermissions: True
+    autoAcceptAlerts: True
+    disableWindowAnimation: False
+    autoDismissAlerts: True
