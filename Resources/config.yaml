@@ -1,6 +1,7 @@
 platform:
 
   server: http://localhost:4723/wd/hub
+  selectedPlatform: android
 
   android:
     platformName: android
@@ -25,10 +26,10 @@ platform:
     platformVersion: 11.4
     app: /App/app.ipa
     udid: iphonesimulator
-    noReset: True
-    waitForQuiescence: False
     wdaEventloopIdleDelay: 3
     eventLoopIdleDelaySec: 1
+    waitForQuiescence: False
+    noReset: True
     useJSONSource: True
     useNewWDA: True
     fullReset: False
