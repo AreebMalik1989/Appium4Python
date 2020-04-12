@@ -1,13 +1,13 @@
 platform:
 
-  server:
+  server: http://localhost:4723/wd/hub
 
   android:
-    platformName:
-    platformVersion:
-    deviceName:
-    udid:
-    app:
+    platformName: android
+    platformVersion: 10
+    deviceName: MotoOneAction
+    udid: motooneaction
+    app: /App/app.apk
     automationName: UiAutomator2
     appActivity: com.example.MainActivity
     autoGrantPermissions: True
@@ -18,13 +18,13 @@ platform:
     waitForIdleTimeout: 2000
   
   ios:
-    platformName:
-    automationName:
-    bundleId:
-    deviceName:
-    platformVersion:
-    app:
-    udid:
+    platformName: iOS
+    automationName: xcuitest
+    bundleId: com.example.app
+    deviceName: iPhone Simulator
+    platformVersion: 11.4
+    app: /App/app.ipa
+    udid: iphonesimulator
     noReset: True
     waitForQuiescence: False
     wdaEventloopIdleDelay: 3
