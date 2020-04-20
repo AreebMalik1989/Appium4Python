@@ -38,5 +38,4 @@ class DriverFactory:
 
     @staticmethod
     def _get_ios_driver():
-        cap = dict()
-        pass
+        raise NotImplementedError
