@@ -1,2 +1,2 @@
-# Appium4Python
-Appium framework based on Python
+# Test_Frameworks
+Testing framworks implemenation for practice.
