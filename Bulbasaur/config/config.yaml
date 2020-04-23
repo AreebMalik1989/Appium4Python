@@ -1,0 +1,37 @@
+NiceAPK: /Users/xxxxx/nice.apk # path of test package
+
+Devices:
+  - deviceid: 5HUC9S6599999999 # device recognizes the value of adb devices
+    devicename: OPPO_R9M # The name of the device, used to distinguish
+    serverport: 4723 # -p Appium's main port, cannot be repeated between devices
+    bootstrapport: 4823 # -bp Appium bootstrap port, cannot be repeated between devices
+    platformname: Android    # desired_caps
+    platformversion: 5.1    # desired_caps
+    server: 127.0.0.1 # address
+
+  - deviceid: 7c404969
+    devicename: OPPO_A33
+    serverport: 4724
+    bootstrapport: 4824
+    platformname: Android
+    platformversion: 5.1.1
+    server: 127.0.0.1
+
+  - deviceid: G6Q4U4EA99999999
+    devicename: OPPO_A37M
+    serverport: 4725
+    bootstrapport: 4825
+    platformname: Android
+    platformversion: 5.1
+    server: 127.0.0.1
+
+Users:
+  - uid: 12345678
+    username: test01
+    mobile: 33333333333
+    password: 333333
+
+  - uid: 12345678
+    username: test02
+    mobile: 44444444444
+    password: 444444
